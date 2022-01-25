@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Sum
+class sum
 
 {
 
