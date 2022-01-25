@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class Oddeven
+class oddeven
  
 {
    
