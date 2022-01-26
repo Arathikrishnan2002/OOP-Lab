@@ -1,37 +1,34 @@
 import java.util.*;
-class factandsum
-{
-	public static void main(String args[])
-	{
-    	factandsum obj1=new factandsum();
-        obj1.sum();
-        obj1.fact();
+public class factandsum 
+   {
+	public static void main(String args[]) {
+    	factandsum obj = new factandsum();
+        Scanner ob=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int x=ob.nextInt();
+        ob.close();
+        obj.sum(x);
+        obj.fact(x);
     }
-     void sum()
-     {
-     Scanner ob=new Scanner(System.in);
-     int s=0,a;
-     System.out.println("Enter the number :");
-     int x=ob.nextInt();
-     while(x>0)
-     	{
+    void sum(int x)
+    {
+        int s=0,a;
+        while(x>0)
+	{
      		a=x%10;
           	s=s+a;
        		x=x/10;
-    	 }
-     System.out.println("Sum of the digits of the number is :"+s);    
-     }
-     
-     void fact()
-     {
-        Scanner ob1=new Scanner(System.in);
-     	  int fact=1,i;
-        System.out.println("Enter number to find factorial:");
-        int n=ob1.nextInt();
-        for(i=1;i<=n;i++)
-        {
-        	fact=fact*i;
-        }
-      System.out.println("Factorial of the given number is:"+fact);   
-     }
+         }
+        System.out.println("Sum of the digits of the number is :"+s);    
     }
+     
+    void fact(int n) 
+    {
+        int fact=1,i;
+        for(i=1;i<=n;i++)
+         {
+        	fact=fact*i;
+         }
+        System.out.println("Factorial of the number is:"+fact);   
+    }
+}
