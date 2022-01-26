@@ -24,11 +24,11 @@ public class factandsum
      
     void fact(int n) 
     {
-        int fact=1,i;
+        int factorial=1,i;
         for(i=1;i<=n;i++)
          {
-        	fact=fact*i;
+        	factorial=factorial*i;
          }
-        System.out.println("Factorial of the number is:"+fact);   
+        System.out.println("Factorial of the number is:"+factorial);   
     }
 }
