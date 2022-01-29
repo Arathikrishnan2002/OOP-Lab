@@ -11,7 +11,7 @@ class frequency
 		System.out.println("Enter the string");
 		for(i=0;i<n;i++)
 			s[i]=sc.next().charAt(0);
-		System.out.println("Enter the character whose frequency is to be claculated");
+		System.out.println("Enter the character whose frequency is to be calculated");
 		char ch=sc.next().charAt(0);
 		for(i=0;i<n;i++)
 			if(s[i]==ch)
