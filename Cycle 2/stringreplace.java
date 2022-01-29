@@ -13,7 +13,7 @@ class stringreplace
 			s[i]=sc.next().charAt(0);
 		System.out.println("Enter the location of the character to be replaced");
 		int x=sc.nextInt();
-		System.out.println("Enter the character which is to be replaced");
+		System.out.println("Enter the character which is to be replaced in the selected position");
 		char ch=sc.next().charAt(0);
 		s[x-1]=ch;
 		System.out.println("New string is");
