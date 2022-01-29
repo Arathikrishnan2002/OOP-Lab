@@ -11,7 +11,7 @@ class stringpalindrome
 		char s[]=new char[50];
 		for(i=0;i<n;i++)
 			s[i]=sc.next().charAt(0);
-		for(i=0;i<n/2;i++,n--)
+		for(i=0;i<n/2;i++)
 			if(s[i]==s[n-1])
 			{
 				flag=1;
