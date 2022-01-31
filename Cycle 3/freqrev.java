@@ -1,5 +1,5 @@
 import java.util.*;
-class freqrev
+public class freqrev
 {   
 	public static void main(String args[])
 	{
