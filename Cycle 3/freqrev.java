@@ -1,5 +1,5 @@
 import java.util.*;
-public class freqrev{   
+class freqrev{   
 	public static void main(String args[])
 	{
         function obj=new function();
