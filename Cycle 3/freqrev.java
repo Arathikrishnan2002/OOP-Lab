@@ -1,5 +1,6 @@
 import java.util.*;
-class freqrev{   
+class freqrev
+{   
 	public static void main(String args[])
 	{
         function obj=new function();
@@ -10,8 +11,7 @@ class freqrev{
         char a = obj1.next().charAt(0);
         obj1.close();
         obj.freq(str,a);
-        obj.rev(str);
-        
+        obj.rev(str);        
     }
 }
 class function
@@ -32,9 +32,11 @@ class function
         int frequency=0;
         for(int i=0;i<len;i++)
         {
-            if(a==str.charAt(i)){
+            if(a==str.charAt(i))
+	    {
                 System.out.println("The character is present at position "+(i+1));
-                frequency++ ;   } 
+                frequency++ ;   
+	    } 
         }
         System.out.println("Frequency of character is "+frequency) ;
     }
