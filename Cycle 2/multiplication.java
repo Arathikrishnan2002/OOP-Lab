@@ -1,7 +1,6 @@
 
 import java.util.*;
-
-public class multiplication
+public class multiplication 
 {
     public static void main(String args [])
      {       
@@ -32,7 +31,8 @@ public class multiplication
           {    
               b[i][j] = obj.nextInt();
           }
-         
+         if(c1==r2)
+         {
          for(i=0;i<r1;i++)
          {
              for(j=0;j<c2;j++)
@@ -46,12 +46,18 @@ public class multiplication
           }
           System.out.println("Resultant matrix is:");             
           for(i=0;i<r1;i++)
-         {
+          {
              for(j=0;j<c2;j++)
               {
                   System.out.print(c[i][j]+"\t");
               }
               System.out.println();
-         }  
+          } 
+        }
+        else
+        {
+            System.out.println("Matrix multiplication is not possible");
+        }
+        
      }
-} 
+}
