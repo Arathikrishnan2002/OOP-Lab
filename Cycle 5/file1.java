@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class file1
+class file1
 {
     public static void main(String[] args) throws Exception
     {
