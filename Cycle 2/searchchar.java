@@ -16,5 +16,7 @@ class searchchar
 		for(i=0;i<n;i++)
 			if(s[i]==ch)
 				System.out.println("Character is found at the position "+(i+1));
+			else
+				System.out.println("Character is not found"); 
 	}
 }
