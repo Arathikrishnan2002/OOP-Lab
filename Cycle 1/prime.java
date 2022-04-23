@@ -19,8 +19,6 @@ import java.util.*;
     System.out.println("Given number is prime");
     else
     System.out.println("Given number is not prime");   
-    }
-    else
-    System. out.println("Given number is not prime");
+   
 }
 }
