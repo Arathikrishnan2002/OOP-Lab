@@ -25,7 +25,7 @@ public class transpose
           }
         System.out.println("The transposed Matrix is:");
         for(i=0;i<m;i++)
-          for(j=0;j<n;j++)          
+                
           {              
               for(j=0;j<n;j++)
               System.out.print(b[i][j]+"\t");
